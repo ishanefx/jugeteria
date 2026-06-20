@@ -1,0 +1,130 @@
+table {
+    width: 100%;
+    padding-right: 15px 30px; 
+}
+
+.table1 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240, 243, 255);
+    padding: 20px; 
+}
+
+.td { 
+    width: 20%;
+    color: blue;
+    padding: 40px; 
+    border: 1px solid rgb(207, 207, 207); 
+    text-align: right;
+    
+}
+
+.td1 {
+    width: 60%;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.td2 {
+    font-size: 30px;
+    color: rgb(58, 58, 245);
+}
+
+.table2 {
+    padding-left: 20px 20px;
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    color: royalblue;
+}
+
+body {
+    color: rgba(26, 26, 26, 0.815);
+    font-family: sans-serif;
+    margin: 0;
+}
+.spaw {
+    font-size: 70px; 
+}
+
+.titulo{
+    font-size: 25px; 
+}
+
+.parrafo{
+    font-size: 25px; 
+}
+
+.Cuadrados {
+display: grid;
+    grid-template-columns: repeat(2, 350px);
+    justify-content: center; 
+    margin: 40px auto;
+    border: 5px solid #e2e8f0;
+    border-radius: 15px;
+   padding: 10px;
+   width: 1000px;
+}
+
+footer div {
+    color: #b8a194ad; 
+    font-size: 12px;
+    margin: 0}
+footer div{
+    text-align: right; 
+    font-size: 12px;
+}
+footer div{
+    color: #e1e1e9; 
+    margin-top: 15px; 
+}
+
+footer{
+    background-color: #2d38cf;
+    padding: 40px 60px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quiero {
+display: block;
+    text-align: center;
+    color: rgb(8, 8, 8); 
+    text-decoration: none; 
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px; 
+    margin-top: 20px;
+    transition: opacity 0.3s ease;
+    background-color: #32cf2d;
+}
+
+.titulo2 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 12px;
+}
+
+.parrafo2 {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+}
+.precio {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #0f172a; 
+    margin: 0 0 15px 0;
+}
+.lista {
+    list-style: none; 
+    padding: 0;
+    margin: 0 0 25px 0;
+}
